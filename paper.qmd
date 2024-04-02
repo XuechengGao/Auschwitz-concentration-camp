@@ -1,0 +1,31 @@
+---
+title: "The ethnic origins and number of Holocaust victims killed at Auschwitz concentration camp"
+author: 
+  - Xuecheng Gao
+thanks: "Link to the shiny app :<https://ggggkasper.shinyapps.io/Auschwitz_concentration_camp/>. Code and data :"
+date: today
+date-format: long
+abstract: "This study examines the impact of gender and age on Toronto shelter return numbers in 2023. We used linear regression to analyze data from shelter records to examine the relationship between gender, age, and shelter returns. The study found significant correlations between gender, age demographics and housing return rates. These results illustrate the importance of considering gender and age demographics in addressing homelessness in the Toronto region."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+#### Workspace setup ####
+library(ggplot2)
+library(arrow)
+library(scales)
+library(modelsummary)
+library(tidyverse)
+library(rstanarm)
+library(knitr)
+library(here)
+library(marginaleffects)
+```
+```{r}
+1 + 1
+```
