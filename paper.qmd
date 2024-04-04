@@ -2,30 +2,22 @@
 title: "The ethnic origins and number of Holocaust victims killed at Auschwitz concentration camp"
 author: 
   - Xuecheng Gao
-thanks: "Link to the shiny app :<https://ggggkasper.shinyapps.io/Auschwitz_concentration_camp/>. Code and data :"
+thanks: "Link to the shiny app :<https://ggggkasper.shinyapps.io/Auschwitz_concentration_camp/>. Code and data :<https://github.com/XuechengGao/Auschwitz-concentration-camp.git>"
 date: today
 date-format: long
-abstract: "This study examines the impact of gender and age on Toronto shelter return numbers in 2023. We used linear regression to analyze data from shelter records to examine the relationship between gender, age, and shelter returns. The study found significant correlations between gender, age demographics and housing return rates. These results illustrate the importance of considering gender and age demographics in addressing homelessness in the Toronto region."
+abstract: "Auschwitz concentration camp was one of the brutal atrocities committed by the Nazis in World War II and was also irrefutable evidence of the Nazis' attempt to commit genocide. This article counts and analyzes the race and number of victims of the Auschwitz massacre. and examines ethical issues in statistical processes and the importance of protecting the humanity of victims in quantitative data analysis. At the end of World War II, the Nazis destroyed a large amount of evidence out of luck, resulting in the fact that many victims' information cannot be verified to this day. Therefore, ethical issues arise in the process of investigating data, and it is also necessary to pay attention to what behind the data represents. Ultimately, this research is about respecting the dignity of all those affected by the Holocaust while allowing more people to understand and value this historical event."
 format: pdf
 number-sections: true
 bibliography: references.bib
+
 ---
 
-```{r}
-#| include: false
-#| warning: false
-#| message: false
-#### Workspace setup ####
-library(ggplot2)
-library(arrow)
-library(scales)
-library(modelsummary)
-library(tidyverse)
-library(rstanarm)
-library(knitr)
-library(here)
-library(marginaleffects)
-```
-```{r}
-1 + 1
-```
+Genocide is an inexcusable act, especially the atrocities committed by the Nazis at Auschwitz during World War II, and is one of the darkest chapters in Western history. While it is important to remember and honor the victims, it is also important to approach the topic with sensitivity and respect for the individuals affected. Let's discuss the ethnic origin and number of Holocaust victims killed in Auschwitz.
+
+The Holocaust targeted various ethnic and social groups, primarily Jews, but also Polish, Soviet POW, Romani, and others marked by the Nazi regime. The number of Auschwitz victims is difficult to accurately determine due to the deliberate destruction of evidence by the Nazis at the end of World War II. The estimated number of Jewish victims was 1 million, Soviet POWs victims 14 thousand, Poles victims 70-thousand, Other groups victims 12 thousand, Roma (Gypsies) victims 21 thousand.@ggplot2 @web @shiny @citeR
+
+Collecting data on the Holocaust may involve ethical issues. Historians and sociologists gather information from a variety of sources, such as survivor testimonies, historical archival records, and judgments based on the remains of victims. It would be unethical to ask survivors to recount their horrific memories. When analyzing data on the experiences of Holocaust victims, protecting their humanity is crucial. Each statistic represents an independent life, and in the process of analyzing the data, every number is a devastation of human nature. Charts and tables make these numbers more visual, and they need to be created and used in a respectful manner.
+
+\newpage
+
+# References 
